@@ -27,6 +27,16 @@
     flex:1;
     border-radius: 5px;
     overflow: hidden;
+    border: 2px solid transparent;
+}
+
+.input-wrapper:hover{
+    border: 2px solid orange;
+}
+
+.input-wrapper .all{
+    padding: 0 10px;
+    background-color: rgb(170, 168, 168);
 }
 
 .input-wrapper input{

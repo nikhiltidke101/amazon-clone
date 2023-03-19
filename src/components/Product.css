@@ -10,6 +10,9 @@
 }
 
 .product{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     width: 150px;
     padding: 10px;
     background-color: rgb(223, 223, 223);

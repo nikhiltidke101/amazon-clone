@@ -4,6 +4,14 @@ import "./NavBar.css"
 const NavBar = () => {
   const [flags, setFlags] = useState([
     {
+      name: "India",
+      code: "IN",
+      emoji: "IN",
+      unicode: "U+1F1E6 U+1F1E8",
+      image:
+        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
+    },
+    {
       name: "Ascension Island",
       code: "AC",
       emoji: "🇦🇨",
@@ -67,7 +75,7 @@ const NavBar = () => {
     <div className="header-container">
       {/* Image Wrapper */}
       <div>
-        <img className="main-logo" src="https://d24v5oonnj2ncn.cloudfront.net/wp-content/uploads/2018/10/16030301/Amazon-Logo-Black-1600x900.jpg" alt="" />
+        <img className="main-logo" src="./pngwing.com.png" alt="" />
       </div>
 
       {/* Location Wrapper */}
@@ -83,6 +91,7 @@ const NavBar = () => {
 
       {/* Input Field */}
       <div className="input-wrapper">
+        <span className="all">All</span>
         <input type="text" />
         <span class="material-symbols-outlined">
           search
