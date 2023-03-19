@@ -1,0 +1,122 @@
+.small-image{
+    height: 20px;
+}
+
+.header-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #131921;
+    padding: 10px;
+    color: white;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+.location-wrapper{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-wrapper{
+    display: flex;
+    flex:1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.input-wrapper input{
+    width: 100%;
+    height: auto;
+    outline: none;
+}
+
+.input-wrapper span{
+    padding: 5px;
+    background-color: orange;
+    color: #131921;
+}
+
+.flag-wrapper{
+    position: relative;
+}
+
+.selected-flag-wrapper{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.flag-class-wrapper{
+    position: absolute;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: #131921;
+    padding: 10px;
+}
+
+.flags{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px; 
+    cursor: pointer; 
+}
+
+.flags:hover{
+    background-color: aliceblue;
+}
+
+.flags span{
+    text-align: left;
+    font-size: 10px;
+    width: 100px;
+}
+
+.div-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.cart-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.strong-heading{
+    font-weight: bold;
+}
+
+.secondary-navbar{
+    height: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #232f3e;
+    color: white;
+    padding: 0 20px;
+}
+
+.all-menu{
+    display: flex;
+    align-items: center;
+}
+
+.main-logo{
+    height: 40px;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+}
+
+.all-menu span{
+    font-size: auto;
+}
