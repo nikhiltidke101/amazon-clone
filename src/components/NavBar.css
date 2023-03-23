@@ -110,7 +110,24 @@
     align-items: center;
     background-color: #232f3e;
     color: white;
-    padding: 0 20px;
+    padding: 20px 30px;
+}
+
+.other-items{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.other-items div {
+    padding: 0px 10px;
+    height: 100%;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.other-items div:hover{
+    border: 1px solid white;
 }
 
 .all-menu{
@@ -129,4 +146,25 @@
 
 .all-menu span{
     font-size: auto;
+}
+
+@media (max-width: 1024px){
+    .other-items{
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) { 
+    .div-wrapper{
+        display: none;
+    }
+
+    .location-wrapper{
+        display: none;
+    }
+
+    .cart-heading{
+        display: none;
+    }
 }

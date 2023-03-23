@@ -1,36 +1,19 @@
-import './App.css';
-import NavBar from './components/NavBar';
-import Carousel from './components/Carousel';
-import Product from './components/Product';
-import CarouselV2 from './components/CarouselV2';
-import Footer from './components/Footer';
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React from "react";
+import Header from "./pages/Header.tsx";
+import Home from"./pages/Home.tsx";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <Carousel/>
-
-      <div className='prod-container'>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
+    <Router>
+      <div className="app">
+        <Routes>
+          <Route path="/checkout"  element={<><Header/></>}></Route>
+          <Route path="/login"  element={<><Header/></>}></Route>
+          <Route path="/Home" element={<><Header/><Home/></>} /></Routes>
       </div>
-
-      <div className='carousel-2'>
-        <CarouselV2/>
-      </div>
-
-      <div className='prod-container'>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-      </div>
-
-      <Footer/>
-    </div>
+    </Router>
   );
 }
 

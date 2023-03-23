@@ -1,3 +1,7 @@
+.App{
+  width: 100vw;
+}
+
 .prod-container{
   width: 100%;
   display: flex;

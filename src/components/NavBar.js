@@ -145,35 +145,35 @@ const NavBar = () => {
         <span class="material-symbols-outlined">
           shopping_cart
         </span>
-        <span className="strong-heading">Cart</span>
+        <span className="cart-heading strong-heading">Cart</span>
       </div>
     </div>
 
     <div className="secondary-navbar">
-
       <div className="all-menu">
           <span class="material-symbols-outlined">
             menu
           </span>
           <div className="all">All</div>
       </div>
-
-      <div>Fashion</div>
-      <div>Entertainment</div>
-      <div>Electronics</div>
-      <div>Groceries</div>
-      <div>Fresh</div>
-      <div>Sell</div>
-      <div>Gift Card</div>
-      <div>Baby</div>
-      <div>Fashion</div>
-      <div>Entertainment</div>
-      <div>Electronics</div>
-      <div>Groceries</div>
-      <div>Fresh</div>
-      <div>Sell</div>
-      <div>Gift Card</div>
-      <div>Baby</div>
+      <div className="other-items">
+        <div>Fashion</div>
+        <div>Entertainment</div>
+        <div>Electronics</div>
+        <div>Groceries</div>
+        <div>Fresh</div>
+        <div>Sell</div>
+        <div>Gift Card</div>
+        <div>Baby</div>
+        <div>Fashion</div>
+        <div>Entertainment</div>
+        <div>Electronics</div>
+        <div>Groceries</div>
+        <div>Fresh</div>
+        <div>Sell</div>
+        <div>Gift Card</div>
+        <div>Baby</div>
+      </div>
     </div>
     </>
   );

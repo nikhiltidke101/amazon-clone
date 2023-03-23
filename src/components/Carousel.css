@@ -1,25 +1,31 @@
+
+.carousel .control-next.control-arrow:before { border-left: 8px solid #fff; }
+
 .carousel{
-    /* width: 100%; */
-    /* min-height: 200px; */
-    z-index: -100;
-    margin-bottom: -300px;
+    position: relative;
+    height: 400px;
 }
-.carousel-control-next-icon{
-    height: 40px !important;
-    margin-right: 0px;
-    margin-top: -300px;
-    background-color: black;
-    z-index: 2;
+
+.custom-arrow{
+    background: #000;
 }
-.carousel-control-prev-icon{
-    height: 40px !important;
-    z-index: 2;
-    margin-top: -300px;
-    background-color: black;
+
+.custom-arrow-left {
+    position: absolute;
+    top: 50px;
+    left: 0;
 }
-.carousel-control-next{
-    justify-content: end;
+
+.custom-arrow-right {
+    position: absolute;
+    top: 50px;
+    right: 0;
 }
-.carousel-control-prev{
-    justify-content: start;
+
+.container{
+    position: absolute;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background: ;
 }
